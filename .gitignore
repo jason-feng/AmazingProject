@@ -1,0 +1,55 @@
+# Object files
+*.o
+<<<<<<< HEAD
+=======
+*.ko
+*.obj
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+>>>>>>> 0755513d443d3f84f35f9cc1a42780c8b2d34a66
+
+# Libraries
+*.lib
+*.a
+<<<<<<< HEAD
+=======
+*.la
+*.lo
+>>>>>>> 0755513d443d3f84f35f9cc1a42780c8b2d34a66
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+<<<<<<< HEAD
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# OSX
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashe
+
+# Log files
+#*.log
+=======
+*.i*86
+*.x86_64
+*.hex
+>>>>>>> 0755513d443d3f84f35f9cc1a42780c8b2d34a66
