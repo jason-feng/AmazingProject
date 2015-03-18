@@ -1,11 +1,17 @@
-AMAZING PROJECT README
-Group: ARAMON
-Members: Chris Leech, Jason Feng, and Jordan Hall
+# AMAZING PROJECT README
+## Members: Chris Leech, Jason Feng, and Jordan Hall
 
-How to make the project:
+### Description: 
+The goal of this project is for each team to design, implement, and test a client application that simulates you and your friends searching for each other in a maze that is generated and managed by a separate server application. Each person in the maze will be represented by an Avatar.
+
+The maze is rectangular, and is a "perfect" maze. A perfect maze is defined as a maze which has one and only one path from any point in the maze to any other point. This means that the maze has no inaccessible sections, no circular paths, and no open areas.
+
+### How to make the project:
 
 The executibles [startup] and [avatar] will be created by running the makefile
-present in the current directory. The main executible- and the executible you will
+present in the current directory. 
+
+The main executible- and the executible you will
 be running - is [startup].
 
 Additionally, there is a separate makefile in the testing directory that will create
@@ -15,11 +21,11 @@ The other testing executable, a testing shell script named BATS.sh,
 is also found in the testing directory, and MUST be run from that
 directory. The logs will be created and saved in the main directory.
 
-Results:
+### Results:
 
 Log files from successful runs can be found in the results directory.
 
-Usage:
+### Usage:
 
 startup -h [hostname] -d [difficulty] -n [nAvs]
 
@@ -29,13 +35,13 @@ startup -h [hostname] -d [difficulty] -n [nAvs]
 
 [nAvs] is the number of avatars that will be put into the maze.
 
-Usage example:
+### Usage example:
 
 startup -h pierce.cs.dartmouth.edu -d 4 -n 2
 
 This example would launch the program for a difficulty for maze, with 2 avatars.
 
-Algorithm:
+### Algorithm:
 
 The general overview of the algorithm is as follows:
 
